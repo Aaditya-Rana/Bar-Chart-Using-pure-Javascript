@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#chart-box{
+    border: 2px solid red;
+    width: 80%;
+    margin: auto;
+    /* align-self: center; */
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+#chart-box h1{
+    /* width: 100%; */
+    margin: 0 auto;
+    border: 2px solid black;
+    padding-top: 4px;
+    margin-top: 5px;
+}
+.bar-chart1{
+    width: 70%;
+    /* height: 0.8em; */
+    align-self: center;
+    border: 2px solid red;
+    margin-top: 10px;
+    height: 85%;
+    column-rule: 5px solid red;
+    display: flex;
+    align-items: flex-end;
+    min-width: 1.6rem;
+}
+.bar{
+    height: 150px;
+    width: 5%;
+    background-color: rgb(234, 174, 64);
+    border: 2px solid green;
+    margin: 0 auto;
+}
